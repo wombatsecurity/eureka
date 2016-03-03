@@ -1,0 +1,11 @@
+{
+  "SERVER_PORT":8671,
+  "CONFIG_URI":"http://localhost:8888",
+  "eureka": {
+    "client":{
+      "serviceUrl":{
+        "defaultZone":"http://$HOSTNAME:8671/eureka/"
+      }
+    }
+   }
+}

@@ -1,9 +1,9 @@
 server:
-  port: 8761
+  port: ${SERVER_PORT}
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
   server:
     waitTimeInMsWhenSyncEmpty: 0
